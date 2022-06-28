@@ -144,6 +144,87 @@ def main():
             break
         else:
             print("You guessed {}. Come On! !\U0001F612".format(guess))
+ 
+fruit = [
+        "banana",
+        "lemon",
+        "pineapple"
+        ]
+
+    x = random.choice(fruit)
+    
+    guess = None
+
+    while x != guess:
+
+        guess = str(input("MEDIUM: Guess a fruit that colored yellow? \0001F619"))
+        
+        if x == guess:
+            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess))
+            break
+        else:
+            print("You guessed {}. Come On! !\U0001F612".format(guess))
+            
+fruit = [
+        "strawberry",
+        "watermelon",
+        "cherry"
+        ]
+
+    x = random.choice(fruit)
+    
+    guess = None
+
+    while x != guess:
+
+        guess = str(input("MEDIUM: Guess a fruit that colored red? \0001F619"))
+        
+        if x == guess:
+            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess))
+            break
+        else:
+            print("You guessed {}. Come On! !\U0001F612".format(guess))
+            
+fruit = [
+        "grape",
+        "avocado",
+        "Guava"
+        ]
+
+    x = random.choice(fruit)
+    
+    guess = None
+
+    while x != guess:
+
+        guess = str(input("MEDIUM: Guess a fruit that colored green? \0001F619"))
+        
+        if x == guess:
+            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess))
+            break
+        else:
+            print("You guessed {}. Come On! !\U0001F612".format(guess))
+            
+ fruit = [
+        "papaya",
+        "apricot",
+        "mango"
+        ]
+
+    x = random.choice(fruit)
+    
+    guess = None
+
+    while x != guess:
+
+        guess = str(input("MEDIUM: Guess a fruit that colored orange? \0001F619"))
+        
+        if x == guess:
+            print("You guessed {}. Hurray! Correct! \U0001F601".format(guess))
+            break
+        else:
+            print("You guessed {}. Come On! !\U0001F612".format(guess))
+
 
 fruit = [
         "Contain pottasium",
